@@ -5,8 +5,8 @@
         public App()
         {
             InitializeComponent();
-
-            MainPage = new AppShell();
+            MainPage = new TabedPageDemo();
+            //MainPage = new NavigationPage(new FlyoutPageDemo());
         }
     }
 }
